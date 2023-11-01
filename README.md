@@ -3,8 +3,9 @@
 
 ## 머신러닝 
 
-- Supervised Learning : https://scikit-learn.org/stable/supervised_learning.html
-- Unsupervised Learning : https://scikit-learn.org/stable/unsupervised_learning.html
+- **ML Type**
+  - Supervised Learning : https://scikit-learn.org/stable/supervised_learning.html
+  - Unsupervised Learning : https://scikit-learn.org/stable/unsupervised_learning.html
 
 - **EDA**
   - Correlation Heatmap : https://seaborn.pydata.org/generated/seaborn.heatmap.html 
