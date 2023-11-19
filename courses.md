@@ -3,7 +3,7 @@
 
 - 1강 : https://www.youtube.com/watch?v=tDxA3VT5kzY 
   - Neuron
-  - MLP 
+  - MLP 
     - Multi Layer Perceptron
     - = DNN (Deep Neural Network)
   - CNN
