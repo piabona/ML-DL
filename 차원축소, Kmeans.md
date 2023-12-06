@@ -60,3 +60,15 @@ plt.ylabel('t-SNE Component 2')
 plt.tight_layout()
 plt.show()
 ```
+
+```python
+from sklearn.metrics import silhouette_samples
+# 각 데이터 포인트의 실루엣 계수 계산
+sample_silhouette_values = silhouette_samples(X_pca, kmeans_pca.labels_)
+
+# 각 군집별 실루엣 계수 출력
+for i in tqdm(range(9)):  # 군집의 개수별로 range(n) 을 조절하기
+    ith_cluster_silhouette_values = sample_silhouette_values[kmeans_pca.labels_ == i]
+    silhouette_avg = ith_cluster_silhouette_values.mean()
+    print(f"군집 {i}의 실루엣 평균 계수: {silhouette_avg}")
+```
